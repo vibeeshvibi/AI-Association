@@ -472,24 +472,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #intro {
-  width: 100%;
-  height: 100vh;
-  background: url(../img/bg-2.jpeg) top center;
+  /* width: 100%;
+  /* background: url(../img/VIDEO-2024-02-18-23-26-46.mp4) top center; */
+  /* background: url(../img/VIDEO-2024-02-18-23-26-46.mp4) top center; */
   background-size: cover;
+  /* max-height: 10% !important; */
   overflow: hidden;
   position: relative;
 }
 
+
+
+
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(9, 9, 9, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
+  height: 99.6%;
 }
-
 #intro .intro-container {
   position: absolute;
   bottom: 0;
@@ -1064,6 +1068,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 4px;
   background: #fff;
   z-index: 1;
+  height: 20%;
 }
 
 /*--------------------------------------------------------------
