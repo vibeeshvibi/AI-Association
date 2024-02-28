@@ -478,6 +478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   /* max-height: 10% !important; */
   overflow: hidden;
+  height: 100vh;
   position: relative;
 }
 
